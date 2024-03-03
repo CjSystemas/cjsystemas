@@ -21,6 +21,7 @@ LOGGER = get_logger(__name__)
 def run():
     st.set_page_config(
         page_title="Hello",
+        #Icones: https://emojidb.org/streamlit-emojis
         page_icon="chart_with_upwards_trend",
     )
 
