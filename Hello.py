@@ -21,12 +21,12 @@ LOGGER = get_logger(__name__)
 def run():
     st.set_page_config(
         page_title="Hello",
-        page_icon="👋",
+        page_icon="chart_with_upwards_trend",
     )
 
     st.write("# CJ SYSTEMAS! 👋")
 
-    st.sidebar.success("Selecionar.")
+    st.sidebar.success("Selecionar")
 
     st.markdown(
         """
