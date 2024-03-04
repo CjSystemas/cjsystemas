@@ -13,6 +13,9 @@
 # limitations under the License.
 
 import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 from streamlit.logger import get_logger
 
 LOGGER = get_logger(__name__)
@@ -36,6 +39,10 @@ def run():
     """
     )
 
+    st.title("Preço da Sexta Baásica por Cidades")
+    df= pd.read_excel('gasto_cesta_basica_8_meses.xls')
+    st.write(df)
+   
 
 if __name__ == "__main__":
     run()
