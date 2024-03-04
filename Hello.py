@@ -29,7 +29,7 @@ def run():
 
     st.write("# CJ SYSTEMAS! 👋")
 
-    st.sidebar.success("Selecionar")
+  
 
     st.markdown(
         """
